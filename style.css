@@ -34,7 +34,7 @@ body {
 }
 
 .navbar li a {
-  padding: 1rem;
+  padding: 0.5rem;
   color: #272a31;
   text-decoration: none;
   display: block;
@@ -61,6 +61,14 @@ body {
   display: grid;
 }
 
+footer .row {
+  display: grid;
+}
+
+.footer-item {
+  text-align: center;
+}
+
 .featured-speakers {
   display: grid;
 }
@@ -85,6 +93,6 @@ body {
   .featured-speakers {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 2rem;
+    grid-gap: 1rem;
   }
 }
