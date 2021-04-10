@@ -49,16 +49,42 @@ body {
   color: white;
 }
 
+.main-page-card {
+  display: flex;
+}
+
 .card-text {
   font-family: 'Lato', sans-serif;
 }
 
+.program-container {
+  display: grid;
+}
+
 .featured-speakers {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 2rem;
 }
 
 .featured-speakers > div {
   background-color: maroon;
+  margin-bottom: 5px;
+}
+
+
+@media (min-width: 768px) {
+
+  .program-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .main-page-card {
+    display: grid;
+  }
+
+  .featured-speakers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+  }
 }
