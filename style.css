@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Cocogoose;
+  src: url(Cocogoose_trial.ttf);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -47,6 +52,7 @@ body {
 .bg-img h1, .text {
   margin: 0;
   color: white;
+  font-family: Cocogoose;
 }
 
 .bg-img .container {
