@@ -51,6 +51,7 @@ body {
 
 .main-page-card {
   display: flex;
+  border: 1px solid blue;
 }
 
 .card-text {
@@ -88,11 +89,20 @@ footer .row {
 
   .main-page-card {
     display: grid;
+    grid-gap: 0.5rem;
   }
 
   .featured-speakers {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
+  }
+
+  footer .row {
+    display: flex;
+  }
+
+  footer .row > div {
+    flex: 1;
   }
 }
