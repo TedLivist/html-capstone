@@ -49,5 +49,16 @@ body {
   color: white;
 }
 
+.card-text {
+  font-family: 'Lato', sans-serif;
+}
 
+.featured-speakers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+}
 
+.featured-speakers > div {
+  background-color: maroon;
+}
