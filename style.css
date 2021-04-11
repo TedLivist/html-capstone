@@ -3,6 +3,14 @@
   src: url(Cocogoose_trial.ttf);
 }
 
+.lato-font {
+  font-family: 'Lato', sans-serif;
+}
+
+.cocogoose-font {
+  font-family: Cocogoose, sans-serif;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -18,7 +26,8 @@ body {
   position: relative;
   background-size: cover;
   background-position: 50% 50%;
-  background-image: url('images/library-landing.jpg');
+  /* background-image: url('images/library-landing.jpg'); */
+  background-color: #f7f7f7;
 }
 
 .navbar {
@@ -56,7 +65,7 @@ body {
 
 .bg-img h1, .text {
   margin: 0;
-  color: white;
+  color: #ec5442;
   font-family: Cocogoose;
 }
 
@@ -69,6 +78,19 @@ body {
   width: 30px;
   height: 17px;
   margin: 12px;
+}
+
+.navbar-container {
+  width: 100%;
+}
+
+.ticket-description {
+  border-radius: 2rem;
+  font-size: 1.3rem;
+}
+
+table {
+  border: 3px solid;
 }
 
 #bg-ticket {
@@ -143,6 +165,10 @@ footer .row {
 
   .toggle-button {
     display: none;
+  }
+
+  .event-description {
+    width: 100%;
   }
 
   .program-container {
