@@ -125,12 +125,15 @@ table {
   border: 1px solid blue;
 }
 
-.card-text {
-  font-family: 'Lato', sans-serif;
+.main-page-card i,
+.main-page-card h3,
+.main-page-card p {
+  flex: 1;
 }
 
-.program-container {
-  display: grid;
+.card-text {
+  font-family: 'Lato', sans-serif;
+  text-align: left;
 }
 
 footer .row {
@@ -166,6 +169,10 @@ footer .row {
     display: none;
   }
 
+  .card-text {
+    text-align: center;
+  }
+
   .event-description {
     width: 75%;
   }
@@ -178,7 +185,6 @@ footer .row {
 
   .main-page-card {
     display: grid;
-    grid-gap: 0.5rem;
   }
 
   .featured-speakers {
