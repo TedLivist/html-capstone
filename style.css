@@ -71,6 +71,15 @@ body {
   margin: 12px;
 }
 
+#bg-ticket {
+  height: 100vh;
+  width: 100;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-color: #f7f7f7;
+}
+
 .toggle-button .bar {
   height: 3px;
   width: 100%;
@@ -81,7 +90,7 @@ body {
   font-family: Cocogoose;
 }
 
-.bg-img .container {
+.bg-img .container, #bg-ticket .container {
   height: 100%;
   display: flex;
   justify-content: center;
