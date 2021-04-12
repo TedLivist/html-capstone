@@ -30,6 +30,11 @@ body {
   background-color: #f7f7f7;
 }
 
+.event-description {
+  background-color: #F8F8F8;
+  border: 1px solid white
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -66,7 +71,17 @@ body {
 .bg-img h1, .text {
   margin: 0;
   color: #ec5442;
+}
+
+.bg-img .text {
+  color: #272a31;
+}
+
+.bg-img h2 {
+  margin: 0;
   font-family: Cocogoose;
+  color: #272a31;
+  font-size: 1.5rem;
 }
 
 .toggle-button {
@@ -153,12 +168,14 @@ table {
   text-align: left;
 }
 
-footer .row {
-  display: grid;
-}
 
 .footer-item {
   text-align: center;
+}
+
+.footer-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .speakers-header {
@@ -244,11 +261,16 @@ footer .row {
     margin-right: 4rem;
   }
 
-  footer .row {
+  .footer-row {
     display: flex;
+    padding: 0 4rem;
   }
 
-  footer .row > div {
+  .footer-img {
     flex: 1;
+  }
+
+  .footer-text {
+    flex: 2;
   }
 }
