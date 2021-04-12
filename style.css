@@ -12,7 +12,7 @@
 }
 
 .index-footer-bg {
-  background-color: #d3d3d3;
+  background-color: #f7f7f7;
 }
 
 .about-footer-bg {
@@ -40,7 +40,7 @@ body {
 
 .event-description {
   background-color: #F8F8F8;
-  border: 1px solid white
+  border: 1px solid white;
 }
 
 .navbar {
@@ -129,6 +129,18 @@ body {
 
 .main-page {
   background-color: #272a31;
+}
+
+.sponsors-section {
+  background-color: #414246;
+}
+
+.featured-section {
+  background-color: #f7f7f7;
+}
+
+.sponsors-container > div {
+  background-color: #414246;
 }
 
 table {
