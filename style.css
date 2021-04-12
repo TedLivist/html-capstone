@@ -264,10 +264,12 @@ table {
   .program-container {
     display: flex;
     padding: 0;
+    background-color: #EC5242;
   }
 
   .program-container > div {
     flex-basis: 20%;
+    margin: 0;
   }
 
   .main-page-card {
