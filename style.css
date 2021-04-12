@@ -27,7 +27,7 @@ body {
   background-size: cover;
   background-position: 50% 50%;
   /* background-image: url('images/library-landing.jpg'); */
-  background-color: #f7f7f7;
+  background-color: #ededed;
 }
 
 .event-description {
@@ -168,14 +168,14 @@ table {
   text-align: left;
 }
 
-
-.footer-item {
-  text-align: center;
+footer {
+  background-color: #272a31;
 }
 
 .footer-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  color: #f7f7f7;
 }
 
 .speakers-header {
