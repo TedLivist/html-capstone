@@ -139,6 +139,25 @@ body {
   background-color: #f7f7f7;
 }
 
+.summit img{
+  opacity: 0.3;
+}
+
+.summit > .text {
+  margin: 0;
+  text-align: center;
+  position: relative;
+  bottom: 55%;
+  color: #272a31;
+  height: auto;
+}
+
+.summit .text h4 {
+  font-size: 2.5rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder;
+}
+
 .sponsors-container > div {
   background-color: #414246;
 }
@@ -301,6 +320,11 @@ table {
 
   .footer-img {
     flex: 1;
+  }
+
+  .three-summits {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1rem;
   }
 
   .footer-text {
