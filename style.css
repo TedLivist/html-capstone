@@ -76,9 +76,14 @@ body {
   background-color: grey;
 }
 
-.bg-img h1, .text {
+.bg-img h1 {
   margin: 0;
   color: #ec5442;
+  font-family: Cocogoose;
+}
+
+.bg-img .text:first-child {
+  color: #EC5242;
 }
 
 .bg-img .text {
