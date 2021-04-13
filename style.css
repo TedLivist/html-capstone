@@ -16,7 +16,11 @@
 }
 
 .about-footer-bg {
-  background-color: #272a31;
+  background-color: #d3d3d3;
+}
+
+.about-footer-bg p {
+  color: #272a31;
 }
 
 * {
@@ -329,5 +333,17 @@ table {
 
   .footer-text {
     flex: 2;
+  }
+
+  .about-footer-bg {
+    background-color: #272a31;
+  }
+
+  .about-footer-bg p {
+    color: #d3d3d3;
+  }
+  
+  .sponsors-about {
+    display: none;
   }
 }
