@@ -147,6 +147,11 @@ body {
   opacity: 0.3;
 }
 
+.activities-header {
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
 .summit > .text {
   margin: 0;
   text-align: center;
