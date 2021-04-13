@@ -34,16 +34,15 @@ body {
 
 .bg-img {
   height: 100vh;
-  width: 100;
+  width: 100%;
   position: relative;
   background-size: cover;
   background-position: 50% 50%;
-  /* background-image: url('images/library-landing.jpg'); */
   background-color: #ededed;
 }
 
 .event-description {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   border: 1px solid white;
 }
 
@@ -84,27 +83,36 @@ body {
 .bg-img h1 {
   margin: 0;
   color: #ec5442;
-  font-family: Cocogoose;
+  font-family: Cocogoose, sans-serif;
 }
 
-.bg-img .text:first-child {
-  color: #EC5242;
+.summit > .text {
+  margin: 0;
+  text-align: center;
+  position: relative;
+  bottom: 55%;
+  color: #272a31;
+  height: auto;
 }
 
 .bg-img .text {
   color: #272a31;
 }
 
+.bg-img .text:first-child {
+  color: #ec5242;
+}
+
 .bg-img h2 {
   margin: 0;
-  font-family: Cocogoose;
+  font-family: Cocogoose, sans-serif;
   color: #272a31;
   font-size: 1.5rem;
 }
 
 .toggle-button {
   display: flex;
-  top: .75rem;
+  top: 0.75rem;
   right: 1rem;
   flex-direction: column;
   justify-content: space-between;
@@ -118,7 +126,7 @@ body {
 }
 
 .activity-header {
-  color: #EC5242;
+  color: #ec5242;
   font-size: 14px;
 }
 
@@ -142,22 +150,13 @@ body {
   background-color: #f7f7f7;
 }
 
-.summit img{
+.summit img {
   opacity: 0.3;
 }
 
 .activities-header {
   font-weight: bolder;
   font-size: 1.5rem;
-}
-
-.summit > .text {
-  margin: 0;
-  text-align: center;
-  position: relative;
-  bottom: 55%;
-  color: #272a31;
-  height: auto;
 }
 
 .summit .text h4 {
@@ -176,7 +175,7 @@ table {
 
 #bg-ticket {
   height: 100vh;
-  width: 100;
+  width: 100%;
   position: relative;
   background-size: cover;
   background-position: 50% 50%;
@@ -190,10 +189,11 @@ table {
 }
 
 .about-title {
-  font-family: Cocogoose;
+  font-family: Cocogoose, sans-serif;
 }
 
-.bg-img .container, #bg-ticket .container {
+.bg-img .container,
+#bg-ticket .container {
   height: 100%;
   display: flex;
   justify-content: center;
@@ -203,7 +203,7 @@ table {
 
 .main-page-card {
   display: flex;
-  background-color: #3C3F46;
+  background-color: #3c3f46;
 }
 
 .main-page-card:hover {
@@ -249,7 +249,7 @@ table {
 }
 
 .speaker-desc-text span {
-  color: #EC5242;
+  color: #ec5242;
 }
 
 .speaker-desc-text hr {
@@ -262,7 +262,6 @@ table {
 }
 
 @media (min-width: 768px) {
-
   .navbar {
     margin: 0 4.5rem;
   }
@@ -351,7 +350,7 @@ table {
     border: 1px solid #d3d3d3;
     border-radius: 2rem;
   }
-  
+
   .sponsors-about {
     display: none;
   }
