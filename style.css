@@ -152,6 +152,8 @@ body {
 
 .summit img {
   opacity: 0.3;
+  height: 90%;
+  width: 100%;
 }
 
 .activities-header {
