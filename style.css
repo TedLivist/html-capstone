@@ -127,7 +127,6 @@ body {
 }
 
 .ticket-description {
-  border-radius: 2rem;
   font-size: 1.3rem;
 }
 
@@ -346,6 +345,11 @@ table {
 
   .about-footer-bg p {
     color: #d3d3d3;
+  }
+
+  .ticket-description {
+    border: 1px solid #d3d3d3;
+    border-radius: 2rem;
   }
   
   .sponsors-about {
