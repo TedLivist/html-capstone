@@ -18,12 +18,14 @@
           <div class="navbar-title">
             <a href="./"><img src="images/web-logo.png" alt="web-logo"></a>
           </div>
-          <a href="#" class="toggle-button">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </a>
-          <div class="navbar-links">
+          <!-- <a href="#" class="toggle-button" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> -->
+            <button class="toggle-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </button>
+          <!-- </a> -->
+          <div class="navbar-links collapse" id="navbarSupportedContent">
             <ul class="d-flex">
               <a href="./" class="navbar-rl"><li class="px-4 py-2">Home</li></a>
               <a href="./about.html" class="navbar-rl"><li class="px-4 py-2">About</li></a>

@@ -78,8 +78,7 @@ body {
   border: 4px solid #ec5242;
 }
 
-.navbar-title,
-.navbar-links {
+.navbar-title {
   display: none;
 }
 
@@ -274,6 +273,10 @@ table {
   .navbar-title,
   .navbar-links {
     display: flex;
+  }
+
+  #navbarSupportedContent {
+    display: block;
   }
 
   .toggle-button {
