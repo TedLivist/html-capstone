@@ -36,6 +36,10 @@ body {
   padding: 0;
 }
 
+header {
+  background-color: white;
+}
+
 .bg-img {
   height: 100vh;
   width: 100%;
@@ -67,16 +71,16 @@ body {
   display: block;
 }
 
+.navbar-rl:hover {
+  color: #ec5242;
+}
+
 .last-link {
   border: 4px solid #ec5242;
 }
 
 .navbar-title {
   display: none;
-}
-
-.navbar-links li:hover {
-  background-color: grey;
 }
 
 .bg-img h1 {
