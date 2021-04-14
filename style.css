@@ -36,7 +36,9 @@ body {
   height: 100vh;
   width: 100%;
   position: relative;
+  background: url('images/bg-img-photo.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: 50% 50%;
   background-color: #ededed;
 }
@@ -63,12 +65,18 @@ body {
   list-style: none;
 }
 
-.navbar li a {
-  padding: 0.5rem;
+.navbar a {
   color: #272a31;
   text-decoration: none;
   display: block;
-  margin: 0 2rem;
+}
+
+.navbar a:first-child {
+  color: #ec5242;;
+}
+
+.last-link {
+  border: 4px solid #ec5242;
 }
 
 .navbar-title,
@@ -187,7 +195,7 @@ table {
 .toggle-button .bar {
   height: 3px;
   width: 100%;
-  background-color: red;
+  background-color: black;
 }
 
 .about-title {
