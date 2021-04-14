@@ -2,7 +2,8 @@
 
 # Hacka-Web Event
 
-> This is a website covering basic details regarding the Hacka-Web Event 2020!
+> This is a Capstone project that follows the given design as can be found in [here](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+> This project follows the above design but with personalized content
 
 ![screenshot](images/screen-shot.jpg)
 
@@ -14,13 +15,17 @@
 
 ## Live Demo
 
-[Visit the Demo](https://tedlivist.github.io/library-capstone/)
+[Visit the Demo](https://tedlivist.github.io/html-capstone/)
 
 ## Getting Started
 
 ### To get a local copy up and running simply follow the next step.
 
-- Clone this repository on to your local PC
+Clone this repository on to your local PC
+- Click on the `Code` green button
+- By the right end of the read-only input containing the repository link click the clipboard icon to copy the link
+- In your local PC, open your terminal in the folder you would like to clone the repository into
+- Clone the repository with the command: `git clone (copied link)`; like so: `git clone https://github.com/TedLivist/html-capstone.git`
 
 ## Author
 
