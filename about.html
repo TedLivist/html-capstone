@@ -13,23 +13,27 @@
   </head>
   <body>
     
-    <nav class="navbar">
-      <div class="navbar-title ms-2">
-        <a href="./"><img src="images/web-logo.png" alt="web-logo"></a>
+    <header>
+      <div class="container-fluid">
+        <nav class="navbar p-0">
+          <div class="navbar-title">
+            <a href="./"><img src="images/web-logo.png" alt="web-logo"></a>
+          </div>
+          <button class="toggle-button border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="bar mt-1"></span>
+            <span class="bar mt-1"></span>
+            <span class="bar mt-1"></span>
+          </button>
+          <div class="navbar-links collapse" id="navbarSupportedContent">
+            <ul class="d-grid navbar-ul m-0 p-0">
+              <a href="./" class="navbar-rl"><li class="px-4 py-2 orange-color">Home</li></a>
+              <a href="./about.html" class="navbar-rl"><li class="px-4 py-2">About</li></a>
+              <a href="./tickets.html" class="navbar-rl"><li class="px-4 py-2 last-link">Ticket</li></a>
+            </ul>
+          </div>
+        </nav>
       </div>
-      <a href="#" class="toggle-button">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </a>
-      <div class="navbar-links">
-        <ul class="d-flex">
-          <li><a href="./">Home</a></li>
-          <li><a href="./about.html">About</a></li>
-          <li><a href="./tickets.html">Ticket</a></li>
-        </ul>
-      </div>
-    </nav>
+    </header>
 
     <section class="bg-img">
       <div class="container">
