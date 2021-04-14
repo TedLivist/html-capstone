@@ -82,7 +82,7 @@ body {
 
 .bg-img h1 {
   margin: 0;
-  color: #ec5442;
+  color: #ec5242;
   font-family: Cocogoose, sans-serif;
 }
 
@@ -229,7 +229,7 @@ table {
 }
 
 .speakers-hr {
-  border-bottom: 1px solid #ec5442;
+  border-bottom: 1px solid #ec5242;
   width: 3.5rem;
 }
 
@@ -255,7 +255,7 @@ table {
 }
 
 .speaker-desc-text hr {
-  color: #ec5442;
+  color: #ec5242;
   width: 2rem;
 }
 
