@@ -264,10 +264,6 @@ table {
 }
 
 @media (min-width: 768px) {
-  .navbar {
-    margin: 0 4.5rem;
-  }
-
   .navbar-title,
   .navbar-links {
     display: flex;
