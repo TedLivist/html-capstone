@@ -14,170 +14,173 @@
   <body>
     
     <header>
-      <nav class="navbar">
+      <div class="container-fluid">
+        <nav class="navbar p-0">
           <div class="navbar-title">
             <a href="./"><img src="images/web-logo.png" alt="web-logo"></a>
           </div>
-          <!-- <a href="#" class="toggle-button" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> -->
-            <button class="toggle-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
-            </button>
-          <!-- </a> -->
+          <button class="toggle-button border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="bar mt-1"></span>
+            <span class="bar mt-1"></span>
+            <span class="bar mt-1"></span>
+          </button>
           <div class="navbar-links collapse" id="navbarSupportedContent">
-            <ul class="d-flex">
-              <a href="./" class="navbar-rl"><li class="px-4 py-2">Home</li></a>
+            <ul class="d-grid navbar-ul m-0 p-0">
+              <a href="./" class="navbar-rl"><li class="px-4 py-2 orange-color">Home</li></a>
               <a href="./about.html" class="navbar-rl"><li class="px-4 py-2">About</li></a>
-              <a href="./tickets.html" class="navbar-rl"><li class="px-4 py-2">Ticket</li></a>
-              <a href="./" class="navbar-rl"><li class="px-4 py-1 last-link">Event</li></a>
+              <a href="./tickets.html" class="navbar-rl"><li class="px-4 py-2 last-link">Ticket</li></a>
             </ul>
           </div>
         </nav>
-      </header>
-
-    <div class="bg-img">
-      <div class="container">
-        <div class="bg-landing">
-          <p class="text">You are invited to this 4th edition of</p>
-          <h1>THE HACKA-WEB EVENT 2020</h1>
-          <div class="p-4 my-4 event-description">
-            <p>Biennal event for the exploration of the web and the exhibition of amazing talents with lots of activities</p>
-          </div>
-          <h2 class="mb-3">2020.01.28(TUE) ~ 30(THU)</h2>
-          <p class="text lato-font">@ Ladi Kwali Center Abuja, Nigeria</p>
-        </div>
       </div>
-    </div>
+    </header>
 
-    <section class="main-page py-5">
-      <h2 class="lato-font text-center pb-2 text-white speakers-header">Main Program</h2>
-      <div class="speakers-hr mx-auto mb-5"></div>
-      <div class="container program-container mb-3">
-        <div class="cards main-page-card text-white py-2">
-          <i class="fab fa-teamspeak fa-2x text-center"></i>
-          <h3 class="mx-auto activity-header">Presentation</h3>
-          <p class="card-text my-auto">Listen to magnificent speakers and gurus from around the globe</p>
-        </div>
-        <div class="cards main-page-card text-white py-2">
-          <i class="fas fa-mouse-pointer fa-2x text-center"></i>
-          <h3 class="mx-auto activity-header">Demos</h3>
-          <p class="mx-auto card-text my-auto">Watch the insightful innovations from incredible developers</p>
-        </div>
-        <div class="cards main-page-card text-white py-2">
-          <i class="fas fa-laptop-code fa-2x text-center"></i>
-          <h3 class="mx-auto activity-header">Hackathon</h3>
-          <p class="mx-auto card-text my-auto">Compete in the Hacka-Web tournament with mouth-watering prices to be won</p>
-        </div>
-        <div class="cards main-page-card text-white py-2">
-          <i class="fab fa-forumbee fa-2x text-center"></i>
-          <h3 class="mx-auto activity-header">Forum</h3>
-          <p class="mx-auto card-text my-auto">Ask and answer questions that explore the web and future.</p>
-        </div>
-        <div class="cards main-page-card text-white py-2">
-          <i class="far fa-handshake fa-2x text-center"></i>
-          <h3 class="mx-auto activity-header meet-n-greet">Meet n Greet</h3>
-          <p class="mx-auto card-text my-auto">Network with other amazing developers like you</p>
-        </div>
-      </div>
-    </section>
+    <main>
 
-    <section class="text-center featured-section pb-4 pt-5">
-      <h2 class="lato-font mb-3 speakers-header">Featured Speakers</h2>
-      <div class="speakers-hr mx-auto mb-5"></div>
-      <div class="container px-0">
-        <div class="featured-speakers">
-          <div class="speaker-description">
-            <div class="speaker-image float-start h-100">
-              <img src="images/nerd-man.jpg" alt="nerd-man">
+      <section class="bg-img">
+        <div class="container">
+          <div class="bg-landing">
+            <p class="text orange-color">You are invited to this 4th edition of</p>
+            <h1 class="m-0 orange-color">THE HACKA-WEB EVENT 2020</h1>
+            <div class="p-4 my-4 event-description">
+              <p>Biennal event for the exploration of the web and the exhibition of amazing talents with lots of activities</p>
             </div>
-            <div class="speaker-desc-text ms-2 text-start">
-              <h5 class="my-0 pb-1">Samuel Gibson</h5>
-              <span class="text-danger">Capacity</span>
-              <hr class="mt-2 mb-1">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-          </div>
-          <div class="speaker-description">
-            <div class="speaker-image float-start h-100">
-              <img src="images/nerd-man.jpg" alt="nerd-man">
-            </div>
-            <div class="speaker-desc-text ms-2 text-start">
-              <h5 class="my-0 pb-1">Samuel Gibson</h5>
-              <span class="text-danger">Capacity</span>
-              <hr class="mt-2 mb-1">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-          </div>
-          <div class="speaker-description">
-            <div class="speaker-image float-start h-100">
-              <img src="images/nerd-man.jpg" alt="nerd-man">
-            </div>
-            <div class="speaker-desc-text ms-2 text-start">
-              <h5 class="my-0 pb-1">Samuel Gibson</h5>
-              <span class="text-danger">Capacity</span>
-              <hr class="mt-2 mb-1">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-          </div>
-          <div class="speaker-description">
-            <div class="speaker-image float-start h-100">
-              <img src="images/nerd-man.jpg" alt="nerd-man">
-            </div>
-            <div class="speaker-desc-text ms-2 text-start">
-              <h5 class="my-0 pb-1">Samuel Gibson</h5>
-              <span class="text-danger">Capacity</span>
-              <hr class="mt-2 mb-1">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-          </div>
-          <div class="speaker-description">
-            <div class="speaker-image float-start h-100">
-              <img src="images/nerd-man.jpg" alt="nerd-man">
-            </div>
-            <div class="speaker-desc-text ms-2 text-start">
-              <h5 class="my-0 pb-1">Samuel Gibson</h5>
-              <span class="text-danger">Capacity</span>
-              <hr class="mt-2 mb-1">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-          </div>
-          <div class="speaker-description">
-            <div class="speaker-image float-start h-100">
-              <img src="images/nerd-man.jpg" alt="nerd-man">
-            </div>
-            <div class="speaker-desc-text ms-2 text-start">
-              <h5 class="my-0 pb-1">Samuel Gibson</h5>
-              <span class="text-danger">Capacity</span>
-              <hr class="mt-2 mb-1">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
+            <h2 class="mb-3">2020.01.28(TUE) ~ 30(THU)</h2>
+            <p class="text lato-font bg-venue">@ Ladi Kwali Center Abuja, Nigeria</p>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="sponsors-section py-5">
-      <h2 class="lato-font text-center pb-2 text-white speakers-header">Sponsors</h2>
-      <div class="speakers-hr mx-auto mb-5"></div>
-      <div class="container program-container sponsors-container mb-3">
-        <div class="cards text-center text-white py-2">
-          <i class="fab fa-facebook fa-3x"></i>
+      <section class="main-page py-5">
+        <h2 class="lato-font text-center pb-2 text-white speakers-header">Main Program</h2>
+        <div class="speakers-hr mx-auto mb-5"></div>
+        <div class="container program-container p-0 mb-3">
+          <div class="cards main-page-card text-white py-2">
+            <i class="fab fa-teamspeak fa-2x text-center"></i>
+            <h3 class="mx-auto activity-header orange-color">Presentation</h3>
+            <p class="card-text my-auto">Listen to magnificent speakers and gurus from around the globe</p>
+          </div>
+          <div class="cards main-page-card text-white py-2">
+            <i class="fas fa-mouse-pointer fa-2x text-center"></i>
+            <h3 class="mx-auto activity-header orange-color">Demos</h3>
+            <p class="mx-auto card-text my-auto">Watch the insightful innovations from incredible developers</p>
+          </div>
+          <div class="cards main-page-card text-white py-2">
+            <i class="fas fa-laptop-code fa-2x text-center"></i>
+            <h3 class="mx-auto activity-header orange-color">Hackathon</h3>
+            <p class="mx-auto card-text my-auto">Compete in the Hacka-Web tournament with mouth-watering prices to be won</p>
+          </div>
+          <div class="cards main-page-card text-white py-2">
+            <i class="fab fa-forumbee fa-2x text-center"></i>
+            <h3 class="mx-auto activity-header orange-color">Forum</h3>
+            <p class="mx-auto card-text my-auto">Ask and answer questions that explore the web and future.</p>
+          </div>
+          <div class="cards main-page-card text-white py-2">
+            <i class="far fa-handshake fa-2x text-center"></i>
+            <h3 class="mx-auto activity-header orange-color meet-n-greet">Meet n Greet</h3>
+            <p class="mx-auto card-text my-auto">Network with other amazing developers like you</p>
+          </div>
         </div>
-        <div class="cards text-center text-white py-2">
-          <i class="fab fa-aws fa-3x"></i>
+      </section>
+
+      <section class="text-center featured-section pb-4 pt-5">
+        <h2 class="lato-font mb-3 speakers-header">Featured Speakers</h2>
+        <div class="speakers-hr mx-auto mb-5"></div>
+        <div class="container px-0">
+          <div class="featured-speakers d-grid">
+            <div class="speaker-description">
+              <div class="speaker-image float-start h-100">
+                <img src="images/nerd-man.jpg" alt="nerd-man">
+              </div>
+              <div class="speaker-desc-text ms-2 text-start">
+                <h5 class="my-0 pb-1">Samuel Gibson</h5>
+                <span class="orange-color">Capacity</span>
+                <hr class="mt-2 mb-1 orange-color">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </div>
+            <div class="speaker-description">
+              <div class="speaker-image float-start h-100">
+                <img src="images/nerd-man.jpg" alt="nerd-man">
+              </div>
+              <div class="speaker-desc-text ms-2 text-start">
+                <h5 class="my-0 pb-1">Samuel Gibson</h5>
+                <span class="orange-color">Capacity</span>
+                <hr class="mt-2 mb-1 orange-color">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </div>
+            <div class="speaker-description">
+              <div class="speaker-image float-start h-100">
+                <img src="images/nerd-man.jpg" alt="nerd-man">
+              </div>
+              <div class="speaker-desc-text ms-2 text-start">
+                <h5 class="my-0 pb-1">Samuel Gibson</h5>
+                <span class="orange-color">Capacity</span>
+                <hr class="mt-2 mb-1 orange-color">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </div>
+            <div class="speaker-description">
+              <div class="speaker-image float-start h-100">
+                <img src="images/nerd-man.jpg" alt="nerd-man">
+              </div>
+              <div class="speaker-desc-text ms-2 text-start">
+                <h5 class="my-0 pb-1">Samuel Gibson</h5>
+                <span class="orange-color">Capacity</span>
+                <hr class="mt-2 mb-1 orange-color">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </div>
+            <div class="speaker-description">
+              <div class="speaker-image float-start h-100">
+                <img src="images/nerd-man.jpg" alt="nerd-man">
+              </div>
+              <div class="speaker-desc-text ms-2 text-start">
+                <h5 class="my-0 pb-1">Samuel Gibson</h5>
+                <span class="orange-color">Capacity</span>
+                <hr class="mt-2 mb-1 orange-color">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </div>
+            <div class="speaker-description">
+              <div class="speaker-image float-start h-100">
+                <img src="images/nerd-man.jpg" alt="nerd-man">
+              </div>
+              <div class="speaker-desc-text ms-2 text-start">
+                <h5 class="my-0 pb-1">Samuel Gibson</h5>
+                <span class="orange-color">Capacity</span>
+                <hr class="mt-2 mb-1 orange-color">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="cards text-center text-white py-2">
-          <i class="fab fa-yahoo fa-3x"></i>
+      </section>
+
+      <section class="sponsors-section py-5">
+        <h2 class="lato-font text-center pb-2 text-white speakers-header">Sponsors</h2>
+        <div class="speakers-hr mx-auto mb-5"></div>
+        <div class="container program-container p-0 sponsors-container mb-3">
+          <div class="cards text-center text-white py-2">
+            <i class="fab fa-facebook fa-3x"></i>
+          </div>
+          <div class="cards text-center text-white py-2">
+            <i class="fab fa-aws fa-3x"></i>
+          </div>
+          <div class="cards text-center text-white py-2">
+            <i class="fab fa-yahoo fa-3x"></i>
+          </div>
+          <div class="cards text-center text-white py-2">
+            <i class="fab fa-xbox fa-3x"></i>
+          </div>
+          <div class="cards text-center text-white py-2">
+            <i class="fab fa-firefox-browser fa-3x"></i>
+          </div>
         </div>
-        <div class="cards text-center text-white py-2">
-          <i class="fab fa-xbox fa-3x"></i>
-        </div>
-        <div class="cards text-center text-white py-2">
-          <i class="fab fa-firefox-browser fa-3x"></i>
-        </div>
-      </div>
-    </section>
+      </section>
+
+    </main>
 
     <footer class="py-5 index-footer-bg">
       <div class="container">
