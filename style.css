@@ -38,7 +38,6 @@ body {
   position: relative;
   background: url('images/bg-img-photo.jpg');
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: 50% 50%;
   background-color: #ededed;
 }
@@ -65,13 +64,13 @@ body {
   list-style: none;
 }
 
-.navbar a {
+.navbar-rl {
   color: #272a31;
   text-decoration: none;
   display: block;
 }
 
-.navbar a:first-child {
+.navbar-rl:first-child {
   color: #ec5242;;
 }
 
